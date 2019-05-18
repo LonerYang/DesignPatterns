@@ -15,6 +15,7 @@ public class PlaneFactory implements VehicleFactory {
 
 
 	private PlaneFactory() {}
+
 	@Override
 	public Vehicle create() {
 		return new Plane();
