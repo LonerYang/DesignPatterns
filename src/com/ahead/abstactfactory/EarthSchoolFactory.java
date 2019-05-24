@@ -1,23 +1,23 @@
-package com.ahead.factory.abstactfactory;
+package com.ahead.abstactfactory;
 
 /**
  * @author Yang
  * @version 1.0
  * @time 2019/5/11
  */
-public class GodPlaceSchoolFactory implements SchoolFactory {
+public class EarthSchoolFactory implements SchoolFactory {
 	@Override
 	public Course createCourse() {
-		return new Fly();
+		return new Java();
 	}
 
 	@Override
 	public Dormitory createDormitory() {
-		return new Tower();
+		return new FourDormitory();
 	}
 
 	@Override
 	public Sport createSport() {
-		return new Wrestle();
+		return new Basketball();
 	}
 }

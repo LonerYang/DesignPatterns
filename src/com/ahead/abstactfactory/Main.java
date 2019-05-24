@@ -1,4 +1,4 @@
-package com.ahead.factory.abstactfactory;
+package com.ahead.abstactfactory;
 
 /**
  * @author Yang
