@@ -13,8 +13,8 @@ import java.awt.event.WindowEvent;
 public class TestFrame extends Frame {
 
 	public void lunch() {
-		Button button = new Button("press me");
-		button.addActionListener((e) -> ((Button)e.getSource()).setLabel("Yang"));
+		java.awt.Button button = new java.awt.Button("press me");
+		button.addActionListener((e) -> ((java.awt.Button)e.getSource()).setLabel("Yang"));
 		this.add(button);
 		this.pack();
 		this.setLocation(500, 300);
