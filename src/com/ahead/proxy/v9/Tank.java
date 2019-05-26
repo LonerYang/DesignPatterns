@@ -47,7 +47,8 @@ public class Tank implements Movable {
 
 	public static void main(String[] args) {
 		Tank tank = new Tank();
-		//将代理生成器产生的file save下来
+		//将代理生成器产生的file save下来（保存到项目级别的路径，这是module级别，因此要去项目级别的目录下找，
+		// 这里我直接将其复制到module级别的目录下）
 		System.getProperties().put("sun.misc.ProxyGenerator.saveGeneratedFiles", "true");
 		//在运行的时候动态的通过asm加载字节码并创建代理对象
 		//param1：哪个类加载器把代理类load到内存

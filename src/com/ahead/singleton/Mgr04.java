@@ -6,6 +6,9 @@ package com.ahead.singleton;
  */
 public enum Mgr04 {
 
+	/**
+	 * 实例
+	 */
 	INSTANCE;
 	
 	public static Mgr04 getInstance() {
