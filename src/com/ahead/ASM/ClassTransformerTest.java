@@ -51,6 +51,7 @@ public class ClassTransformerTest {
         File f = new File(path + "/DesignPatterns/com/ahead/ASM/");
         f.mkdirs();
 
+        //指定动态生成的Tank.class文件保存的位置
         FileOutputStream fos = new FileOutputStream(new File(path + "/DesignPatterns/com/ahead/ASM/Tank_0.class"));
         fos.write(b2);
         fos.flush();
