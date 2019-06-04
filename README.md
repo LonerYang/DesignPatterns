@@ -1,6 +1,6 @@
 # DesignPatterns
 23种设计模式
-配套笔记（https://note.youdao.com/ynoteshare/index.html?id=2b53c8478ca9d938c7288f92815e26bc&type=notebook&tdsourcetag=s_pctim_aiomsg）
+配套笔记（https://note.youdao.com/ynoteshare1/index.html?id=3cffc4f2f5185a0d83050a1d59b9ec93&type=notebook）
 **注意**
 调停者模式(Mediator)和门面模式(facade)在坦克大战中用到了
     -对于TankFrame来说，其中的GameModel成员变量就是门面，所有新添加到游戏中的物体只需要给GameModel就行

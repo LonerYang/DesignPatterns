@@ -1,4 +1,4 @@
-package com.ahead.adapter;
+package com.ahead.adapter.v1;
 
 import java.io.*;
 
