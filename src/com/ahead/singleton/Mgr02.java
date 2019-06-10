@@ -6,7 +6,7 @@ package com.ahead.singleton;
  */
 public class Mgr02 {
 	
-	private static Mgr02 INSTANCE = null;
+	private volatile static Mgr02 INSTANCE = null;
 
 	public static Mgr02 getInstance() {
 		//双重检查，外面的判断不能省略，如果省略了，每个线程过来都要拿锁，浪费很多效率

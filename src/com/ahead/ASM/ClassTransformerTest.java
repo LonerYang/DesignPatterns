@@ -56,6 +56,5 @@ public class ClassTransformerTest {
         fos.write(b2);
         fos.flush();
         fos.close();
-
     }
 }
