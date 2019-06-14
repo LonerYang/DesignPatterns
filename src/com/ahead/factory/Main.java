@@ -7,7 +7,12 @@ package com.ahead.factory;
  */
 public class Main {
 	public static void main(String[] args) {
-		Vehicle vehicle = PlaneFactory.getInstance().create();
-		vehicle.go();
+		VehicleFactory planeFactory = PlaneFactory.getInstance();
+		Vehicle plane = planeFactory.create();
+		plane.go();
+
+		VehicleFactory carFactory = CarFactory.getInstance();
+		Vehicle car = carFactory.create();
+		car.go();
 	}
 }
